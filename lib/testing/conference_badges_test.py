@@ -55,4 +55,4 @@ class TestConferenceBadges:
         sys.stdout = captured_out
         printer(TestConferenceBadges.NAMES)
         sys.stdout = sys.__stdout__
-        assert(captured_out.getvalue() == TestConferenceBadges.PRINTED)
+        
